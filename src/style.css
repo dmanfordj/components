@@ -20,7 +20,7 @@ button{
 
 .left {
     width:50%;
-    height:100vh;
+    /* height:100vh; */
     /* background-color: azure; */
     padding:20px;
     font-size: 1.50rem;
@@ -35,7 +35,7 @@ button{
 }
 .image {
     width:50%;
-    height:100vh;
+    /* height:100vh; */
     padding:10px;
     float:right;
     box-sizing:border-box;
@@ -44,7 +44,9 @@ button{
 
 .footer_{
     padding:5px;
-    font-size:1.5rem;
+    font-size:1.0rem;
+    width:100%;
+    float:right;
 }
 
 
@@ -58,7 +60,7 @@ button{
 }
 .img--comp {
     width:100%;
-    object-fit:contain;
+    object-fit:cover;
     border-radius: 20px;
   
 }
