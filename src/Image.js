@@ -8,7 +8,7 @@ export default function Image(){
     return (
         <div className="image">
           Image Component On the Right :
-          <img src={reactbg} alt="React JS Logo"/>
+          <img src={reactbg} alt="React JS Logo" className="img--comp"/>
         </div>
     )
 }

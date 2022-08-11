@@ -6,11 +6,13 @@ import Navbar from './Navbar' ;
 import LeftSide from './LeftSide' ;
 import Image from './Image' ;
 import Footer from './Footer';
+import Slider from "./Slider";
 
 function App(){
     return (
         <>
         <Navbar/>
+        <Slider/>
        <center> <h4 class="heading">In this project we explore the basics of components in React-JS</h4> </center>
        <LeftSide/>
        <Image/>

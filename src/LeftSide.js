@@ -12,7 +12,8 @@ export default function LeftSide(){
             <li>Set up a react project using npm and create-react-app.</li>
             <li>Using Component to render UI. </li>
           </ul>
-          This is a side component on the left side ..!
+          This is a side component on the left side ..! <br/>
+          <button id="btn"> Click Here..!</button>
         </div>
     )
 }
