@@ -11,7 +11,7 @@ function App(){
     return (
         <>
         <Navbar/>
-       <center> <h4>In this project we explore the basics of components in React-JS</h4> </center>
+       <center> <h4 class="heading">In this project we explore the basics of components in React-JS</h4> </center>
        <LeftSide/>
        <Image/>
        <Footer/>
